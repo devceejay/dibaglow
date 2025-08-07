@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="wellness, spa, aesthetics, medical spa, spa treatments, celestial beauty, holistic spa, massage, glow, glow ritual, moonbeam facials, crystal healing, dibaglow"
+    />
+    <meta
+      name="description"
+      content="DibaGlow is your celestial sanctuary for radiant skin and inner harmony. Discover luxury facials, crystal healing massages, and personalized skin elixirs designed to elevate your glow. Book your transformative spa experience today."
+    />
+    <meta name="author" content="Chijioke Nwabasili" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="DibaGlow | Celestial Beauty & Holistic Spa Treatments"
+    />
+    <meta
+      property="og:description"
+      content="DibaGlow is your celestial sanctuary for radiant skin and inner harmony. Discover luxury facials, crystal healing massages, and personalized skin elixirs designed to elevate your glow. Book your transformative spa experience today."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DibaGlow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DibaGlow | Celestial Beauty & Holistic Spa Treatments</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <a href="/" class="logo-text">🌿 DibaGlow</a>
+        <!-- Hamburger menu -->
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          aria-label="Toggle navigation"
+        />
+        <label
+          for="menu-toggle"
+          class="hamburger"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <!-- Navbar -->
+        <nav>
+          <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li>
+              <a href="contact.html" class="cta-button cta-mobile"
+                >Book an Appointment</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <a href="contact.html" class="cta-button cta-desktop"
+          >Book an Appointment</a
+        >
+      </div>
+    </header>
+
+    <main class="page-content">
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container contact-wrapper">
+          <h2 class="contact-title">Contact & Booking</h2>
+          <p class="contact-subtitle">
+            Got questions or ready to book your glow-up? Use the form below to
+            send a message or schedule a treatment, we'll be in touch to help
+            you start your journey to radiant beauty.
+          </p>
+          <div class="contact-info-grid">
+            <div class="contact-info">
+              <div class="contact-card">
+                <h3>Get in Touch</h3>
+                <div class="contact-card-content">
+                  <i class="fas fa-phone contact-icon" aria-hidden="true"></i>
+                  <div>
+                    <h4>Phone</h4>
+                    <p>+123 456 789 0000</p>
+                  </div>
+                </div>
+                <div class="contact-card-content">
+                  <i
+                    class="fas fa-envelope contact-icon"
+                    aria-hidden="true"
+                  ></i>
+                  <div>
+                    <h4>Email</h4>
+                    <p>contact@dibaglow.com</p>
+                  </div>
+                </div>
+                <div class="contact-card-content">
+                  <i
+                    class="fas fa-map-marker-alt contact-icon"
+                    aria-hidden="true"
+                  ></i>
+                  <div>
+                    <h4>Address</h4>
+                    <p>123 Spa Avenue, Beauty Villa.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-card">
+                <h3>Opening Hours</h3>
+                <div class="contact-card-content">
+                  <i class="fas fa-clock contact-icon" aria-hidden="true"></i>
+                  <div>
+                    <h4 class="day">Monday to Friday</h4>
+                    <p class="time">09:00 - 20:00</p>
+                  </div>
+                </div>
+                <div class="contact-card-content">
+                  <i class="fas fa-clock contact-icon" aria-hidden="true"></i>
+                  <div>
+                    <h4 class="day">Saturday</h4>
+                    <p class="time">10:00 - 18:00</p>
+                  </div>
+                </div>
+                <div class="contact-card-content">
+                  <i class="fas fa-clock contact-icon" aria-hidden="true"></i>
+                  <div>
+                    <h4 class="day">Sunday</h4>
+                    <p class="time">12:00 - 16:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Contact & Booking form -->
+            <form
+              action="#"
+              method="post"
+              id="contact-form"
+              aria-label="Contact & Booking Form"
+            >
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Enter your full name"
+                  autocomplete="off"
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Enter your email"
+                  autocomplete="off"
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  required
+                  id="phone"
+                  placeholder="Enter your phone number"
+                  autocomplete="off"
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-group">
+                <label for="reason">What would you like to do?</label>
+                <select id="reason" name="reason" required aria-required="true">
+                  <option value="">-- Select an option --</option>
+                  <option value="book">Book a treatment</option>
+                  <option value="inquire">Send a general inquiry</option>
+                </select>
+              </div>
+              <div id="booking-fields" style="display: none">
+                <div class="form-group">
+                  <label for="service">Select a Treatment:</label>
+                  <select
+                    id="service"
+                    name="service"
+                    required
+                    aria-required="true"
+                  >
+                    <option value="">-- Choose a service --</option>
+                    <option value="celestial-skin-elixirs">
+                      Celestial Skin Elixirs
+                    </option>
+                    <option value="moonbeam-facials">Moonbeam Facials</option>
+                    <option value="crystal-healing-massages">
+                      Crystal Healing Massages
+                    </option>
+                    <option value="custom-consultation">
+                      Custom Consultation
+                    </option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="preferred-date">Preferred Date:</label>
+                  <input
+                    type="date"
+                    id="preferred-date"
+                    name="preferred-date"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="time">Preferred Time:</label>
+                  <input
+                    type="time"
+                    id="time"
+                    name="time"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message / Notes:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  rows="5"
+                  minlength="10"
+                  maxlength="300"
+                  placeholder="Share your question, request, or skincare concerns..."
+                  aria-required="true"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                id="form-submit-btn"
+                title="Click to submit form"
+                aria-label="Submit form"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+        <!-- Map section-->
+        <div id="map">
+          <div class="container">
+            <h3 class="map-title">Visit Our Spa</h3>
+            <p class="map-subtitle">
+              Relaxation awaits at our serene location. Come see us in person.
+            </p>
+            <div class="map-embed">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6769837.680576449!2d-117.21991320907583!3d34.05452007464096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b08ebcb4c186b%3A0x423927b17fc1cd71!2sArizona%2C%20USA!5e0!3m2!1sen!2sng!4v1750766252073!5m2!1sen!2sng"
+                title="Google map location of Dibaglow Spa"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-wrapper">
+        <div class="footer-section">
+          <a href="/" class="footer-logo">🌿 DibaGlow</a>
+          <p class="brand-description">
+            Blending ancient healing rituals with modern skincare science to
+            reveal your inner radiance.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Book Appointment</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Policies</h4>
+          <ul class="footer-links">
+            <li>
+              <a href="#" onclick="event.preventDefault()">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" onclick="event.preventDefault()">Terms of Service</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Get In Touch</h4>
+          <p>
+            <i class="fas fa-phone" aria-hidden="true"></i> +123 456 789 0000
+          </p>
+          <p>
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            contact@dibaglow.com
+          </p>
+          <p>
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 123 Spa
+            Avenue, Beauty Villa.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Opening Hours</h4>
+          <p><span>Monday - Friday</span>: 09:00 - 20:00</p>
+          <p><span>Saturday</span>: 10:00 - 18:00</p>
+          <p><span>Sunday</span>: 12:00 - 16:00</p>
+        </div>
+        <div class="footer-section">
+          <h4>Connect With Us</h4>
+          <p>
+            Stay connected with us on social media. Follow us for beauty,
+            skincare tips.
+          </p>
+          <ul class="social-icons">
+            <li>
+              <a href="#" onclick="event.preventDefault()" aria-label="Facebook"
+                ><i class="fab fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                onclick="event.preventDefault()"
+                aria-label="Instagram"
+                ><i class="fab fa-instagram" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" onclick="event.preventDefault()" aria-label="Twitter"
+                ><i class="fab fa-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">
+        &copy; 2025 DibaGlow | Designed and developed by
+        <a href="https://chijioke-nwabasili.vercel.app" target="_blank"
+          >Chijioke Nwabasili</a
+        >
+      </p>
+      <a
+        href="#"
+        aria-label="Click to scroll to the top"
+        class="back-to-top-btn"
+      >
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+      </a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
